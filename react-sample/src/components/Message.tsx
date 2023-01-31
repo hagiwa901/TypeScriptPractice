@@ -15,8 +15,12 @@ const Message = (props: {}) => {
     return (
         <div>
             { /* contentというキーでコンポーネントにデータを渡す */ }
-            <Text content1={content1} />
-            <Text content2={content2} />
+            <Text content={content1} />
+            { /* 違うデータを渡すと、違う内容が表示される */ }
+            <Text content={content2} />
         </div>
     )
 }
+
+// Messageコンポーネントをデフォルトエクスポート
+export default Message
