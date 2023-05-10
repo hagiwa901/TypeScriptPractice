@@ -3,8 +3,8 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 //import App from './App';
 import Hello from './components/Hello';
-import Parent from './components/ContainerSample'
-import Counter from './components/useStateSample'
+import Name from './components/Name';
+import Parent from './components/Parent'
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(
@@ -27,7 +27,7 @@ root.render(
 */
 root.render(
   <React.StrictMode>
-    <Counter />
+    <Parent />
   </React.StrictMode>
 );
 
