@@ -4,7 +4,8 @@ import './index.css';
 //import App from './App';
 import Hello from './components/Hello';
 import Name from './components/Name';
-import Parent from './components/Parent'
+import Parent from './components/ParentCallback'
+import UseMemoSample from './components/UseMemoSample'
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(
@@ -27,7 +28,7 @@ root.render(
 */
 root.render(
   <React.StrictMode>
-    <Parent />
+    <UseMemoSample />
   </React.StrictMode>
 );
 
