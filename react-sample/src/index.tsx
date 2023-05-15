@@ -6,6 +6,7 @@ import Hello from './components/Hello';
 import Name from './components/Name';
 import Parent from './components/ParentCallback'
 import UseMemoSample from './components/UseMemoSample'
+import getLocaleFromString from './components/Clock';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(
