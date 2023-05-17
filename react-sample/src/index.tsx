@@ -27,7 +27,7 @@ root.render(
   </React.StrictMode>
 );
 */
-root.render(
+root.render( 
   <React.StrictMode>
     <UseMemoSample />
   </React.StrictMode>
